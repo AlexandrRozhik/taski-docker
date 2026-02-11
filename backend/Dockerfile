@@ -1,6 +1,6 @@
 # Создать образ на основе базового слоя,
 # который содержит файлы ОС и интерпретатор Python 3.12.
-FROM python:3.12
+FROM python:3.9
 
 # Добавьте эту строку: установить setuptools, который включает distutils
 RUN pip install --upgrade pip setuptools wheel
